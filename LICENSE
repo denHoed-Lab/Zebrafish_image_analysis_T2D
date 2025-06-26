@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 MDH_Lab
+Copyright (c) 2025 Uppsala University, KTH Royal Institute of Technology, and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+This software was developed as part of the research project "In vivo, large-scale 
+perturbation screen of T2D candidate genes highlights potential therapeutic targets" 
+conducted at Uppsala University and collaborating institutions. 
