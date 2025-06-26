@@ -4,7 +4,7 @@ A comprehensive MATLAB-based image analysis pipeline for zebrafish embryo analys
 
 **This software was developed for the research study:**
 > "In vivo, large-scale perturbation screen of T2D candidate genes highlights potential therapeutic targets"  
-> *Mujica et al., 2025*
+> *Mujica and Zhang et al., 2025*
 
 The pipeline enables automated analysis of zebrafish embryo images from VAST (Versatile Automated Screening Technology) systems, providing quantitative measurements for functional genomics studies of type 2 diabetes candidate genes.
 
