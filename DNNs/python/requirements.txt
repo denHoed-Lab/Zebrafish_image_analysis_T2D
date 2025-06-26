@@ -1,0 +1,22 @@
+# Python dependencies for VAST Pipeline segmentation networks
+# Core deep learning framework
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Image processing
+opencv-python>=4.5.0
+numpy>=1.21.0
+tifffile>=2021.7.0
+
+# Scientific computing
+scipy>=1.7.0
+scikit-image>=0.18.0
+
+# Image transformations (for augmentation)
+gryds>=0.0.3
+
+# Optional: for debugging and visualization
+matplotlib>=3.3.0
+
+# Note: These versions are compatible with Python 3.7-3.9
+# For newer Python versions, you may need to update some packages 
