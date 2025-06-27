@@ -125,10 +125,10 @@ Excluding the data downloads, setting up the python enviroment takes 23.73s
 - It takes ~15min to analyze the three samples in the test data.
    
 6. **Average time to run the analysis per sample and per model**:
--  Image Type  Time per Image
--  Beta cells  ~1 min 37 sec
--  Liver       ~2 min 13 sec
--  VAST        ~1 min
+-  Image Type:  Time per Image
+-  Beta cells:  ~1 min 37 sec
+-  Liver:       ~2 min 13 sec
+-  VAST_        ~1 min
 
 
 
