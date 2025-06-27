@@ -44,18 +44,22 @@ This pipeline performs automated analysis of zebrafish embryo images from VAST (
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/vast-image-analysis-pipeline.git
-cd vast-image-analysis-pipeline
+git clone https://github.com/denHoed-Lab/Zebrafish_image_analysis_T2D.git
 ```
+### 2. Download test data and weights
+1. Open the ./Test data/ and use the path provided in the readme file to download the data from Google Drive
+2. Repeat the same for the following paths:
+   ./DNNs/MATLAB weights/
+   ./DNNs/python/weights/
 
-### 2. MATLAB Setup
+### 3. MATLAB Setup
 1. Open MATLAB and navigate to the cloned directory
 2. Add the pipeline to MATLAB path:
    ```matlab
    addpath(genpath('.'))
    ```
 
-### 3. Python Environment Setup
+### 4. Python Environment Setup
 1. Run the Python environment setup script:
    ```matlab
    RunPythonSetupfirst
