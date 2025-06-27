@@ -3,7 +3,7 @@
 A comprehensive MATLAB-based image analysis pipeline for zebrafish larvae analysis, combining deep learning segmentation with traditional image processing techniques.
 
 **This software was developed for the research study:**
-> "In vivo, large-scale perturbation screen of T2D candidate genes highlights potential therapeutic targets"  
+> "_In vivo_, large-scale perturbation screen of T2D candidate genes highlights potential therapeutic targets"  
 > *Mujica and Zhang et al., 2025*
 
 The pipeline enables automated analysis of zebrafish larvae images from VAST (Versatile Automated Screening Technology) systems, providing quantitative measurements for functional genomics studies of type 2 diabetes candidate genes.
@@ -27,8 +27,8 @@ This pipeline performs automated analysis of zebrafish larvae images from VAST (
 
 ### Software Requirements
 - **Windows Operating System**
-- Tested on Windows 11
-- Not yet suitable to run on macOS (working on it)
+  - Tested on Windows 11
+  - Not yet suitable to run on macOS (working on it)
 - **MATLAB R2020a or later** with the following toolboxes:
   - Image Processing Toolbox
   - Deep Learning Toolbox
@@ -52,8 +52,8 @@ git clone https://github.com/denHoed-Lab/Zebrafish_image_analysis_T2D.git
 ### 2. Download test data and weights
 1. Open the ./Test data/ and use the path provided in the readme file to download the data from Google Drive
 2. Repeat the same for the following paths:
-   ./DNNs/MATLAB weights/
-   ./DNNs/python/weights/
+  - ./DNNs/MATLAB weights/
+  - ./DNNs/python/weights/
 
 ### 3. MATLAB Setup
 1. Open MATLAB and navigate to the cloned directory
@@ -121,14 +121,14 @@ Excluding the data downloads, setting up the python enviroment takes 23.73s
    └── Individual well results
    ```
 4. **Run time**:
-   On a computer with a Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz processor, 32GB RAM and 11GB graphics card,
-   it takes ~15min to analyze the three samples in the test data.
+   On a computer with a Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz processor, 32GB RAM and an 11GB graphics card:
+- It takes ~15min to analyze the three samples in the test data.
    
 6. **Average time to run the analysis per sample and per model**:
-  Image Type  Time per Image
-  Beta cells  ~1 min 37 sec
-  Liver       ~2 min 13 sec
-  VAST        ~1 min
+-  Image Type  Time per Image
+-  Beta cells  ~1 min 37 sec
+-  Liver       ~2 min 13 sec
+-  VAST        ~1 min
 
 
 
