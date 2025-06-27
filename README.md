@@ -262,7 +262,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Contact
 
 - **Author**: Endrina Mujica
-- **Email**: endrina.mujica@igp.uu.se
+- **Email**: endrina.mujica@uu.se
 - **Institution**: Uppsala University, Sweden
 
 - **Author**: Hanqing Zhang
