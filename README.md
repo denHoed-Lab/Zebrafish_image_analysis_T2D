@@ -26,7 +26,7 @@ This pipeline performs automated analysis of zebrafish embryo images from VAST (
 ## System Requirements
 
 ### Software Requirements
-- **Windows operating system**
+- **Windows Operating System 11**
 - **MATLAB R2020b or later** with the following toolboxes:
   - Image Processing Toolbox
   - Deep Learning Toolbox
@@ -37,7 +37,7 @@ This pipeline performs automated analysis of zebrafish embryo images from VAST (
 
 ### Hardware Requirements
 - **RAM**: Minimum 8GB, recommended 16GB+
-- **Storage**: 10GB+ free space for Python environment and results
+- **Storage**: 10GB+ free space for Python environment, data and results
 - **GPU**: Optional but recommended for faster deep learning inference
 
 ## Installation
@@ -74,6 +74,8 @@ Run the test script to ensure everything is working:
 ```matlab
 Analysis_main
 ```
+### 5. Run time
+Excluding the data downloads, setting up the python enviroment takes 23.73s
 
 ## Usage
 
@@ -115,6 +117,17 @@ Analysis_main
    │       └── Analysis files
    └── Individual well results
    ```
+4. **Run time**:
+   On a computer with a Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz processor, 32GB RAM and 11GB graphics card,
+   it takes 15min to run the analysis on three samples from the test data.
+   
+6. **Average time to run the analysis per sample and per model**:
+  Image Type  Time per Image
+  Beta cells  ~1 min 37 sec
+  Liver       ~2 min 13 sec
+  VAST        ~1 min
+
+
 
 ### Configuration
 
