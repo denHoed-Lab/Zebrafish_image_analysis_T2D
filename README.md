@@ -1,18 +1,18 @@
-# VAST Image Analysis Pipeline
+# Zebrafish Image Analysis Pipeline for Type 2 Diabetes traits
 
-A comprehensive MATLAB-based image analysis pipeline for zebrafish embryo analysis, combining deep learning segmentation with traditional image processing techniques.
+A comprehensive MATLAB-based image analysis pipeline for zebrafish larvae analysis, combining deep learning segmentation with traditional image processing techniques.
 
 **This software was developed for the research study:**
 > "In vivo, large-scale perturbation screen of T2D candidate genes highlights potential therapeutic targets"  
 > *Mujica and Zhang et al., 2025*
 
-The pipeline enables automated analysis of zebrafish embryo images from VAST (Versatile Automated Screening Technology) systems, providing quantitative measurements for functional genomics studies of type 2 diabetes candidate genes.
+The pipeline enables automated analysis of zebrafish larvae images from VAST (Versatile Automated Screening Technology) systems, providing quantitative measurements for functional genomics studies of type 2 diabetes candidate genes.
 
 ## Overview
 
-This pipeline performs automated analysis of zebrafish embryo images from VAST (Versatile Automated Screening Technology) systems, providing:
+This pipeline performs automated analysis of zebrafish larvae images from VAST (Versatile Automated Screening Technology) systems, providing:
 
-- **Beta Cell Detection**: Automated detection and quantification of beta cells in zebrafish embryos
+- **Beta Cell Detection**: Automated detection and quantification of beta cells in zebrafish larvae
 - **Liver Analysis**: Liver tissue segmentation and lipid droplet quantification
 - **VAST Shape Analysis**: Morphological analysis of brightfield images including body segmentation, eye/ear detection, and developmental assessment
 
@@ -122,7 +122,7 @@ Excluding the data downloads, setting up the python enviroment takes 23.73s
    ```
 4. **Run time**:
    On a computer with a Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz processor, 32GB RAM and 11GB graphics card,
-   it takes 15min to run the analysis on three samples from the test data.
+   it takes ~15min to analyze the three samples in the test data.
    
 6. **Average time to run the analysis per sample and per model**:
   Image Type  Time per Image
