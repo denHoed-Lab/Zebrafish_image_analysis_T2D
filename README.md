@@ -26,6 +26,7 @@ This pipeline performs automated analysis of zebrafish embryo images from VAST (
 ## System Requirements
 
 ### Software Requirements
+- **Windows operating system**
 - **MATLAB R2020b or later** with the following toolboxes:
   - Image Processing Toolbox
   - Deep Learning Toolbox
